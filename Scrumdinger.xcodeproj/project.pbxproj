@@ -12,6 +12,7 @@
 		BA16E2752A59ED1200DFC6C1 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = BA16E2742A59ED1200DFC6C1 /* ding.wav */; };
 		BA16E2772A5C2F1D00DFC6C1 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA16E2762A5C2F1D00DFC6C1 /* SpeechRecognizer.swift */; };
 		BA16E2792A5C3A3800DFC6C1 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA16E2782A5C3A3800DFC6C1 /* HistoryView.swift */; };
+		BA16E27F2A5D903900DFC6C1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BA16E27E2A5D903900DFC6C1 /* LICENSE */; };
 		BA5CD89A29D03DA100A8DD8E /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5CD89929D03DA100A8DD8E /* DetailEditView.swift */; };
 		BA5CD89C29D04A3300A8DD8E /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5CD89B29D04A3300A8DD8E /* ThemeView.swift */; };
 		BA5CD89E29D04C7A00A8DD8E /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5CD89D29D04C7A00A8DD8E /* ThemePicker.swift */; };
@@ -63,6 +64,7 @@
 		BA16E2762A5C2F1D00DFC6C1 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
 		BA16E2782A5C3A3800DFC6C1 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		BA16E27A2A5D5DDD00DFC6C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BA16E27E2A5D903900DFC6C1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BA5CD89929D03DA100A8DD8E /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		BA5CD89B29D04A3300A8DD8E /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		BA5CD89D29D04C7A00A8DD8E /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
@@ -126,9 +128,18 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		BA16E27D2A5D8F6100DFC6C1 /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				BA16E27E2A5D903900DFC6C1 /* LICENSE */,
+			);
+			path = LICENSE;
+			sourceTree = "<group>";
+		};
 		BA90324D29CF7AFA006C9D65 = {
 			isa = PBXGroup;
 			children = (
+				BA16E27D2A5D8F6100DFC6C1 /* LICENSE */,
 				BA90325829CF7AFA006C9D65 /* Scrumdinger */,
 				BA90326929CF7AFB006C9D65 /* ScrumdingerTests */,
 				BA90327329CF7AFB006C9D65 /* ScrumdingerUITests */,
@@ -320,6 +331,7 @@
 			files = (
 				BA16E2752A59ED1200DFC6C1 /* ding.wav in Resources */,
 				BA11EDF129D0EE7600543ABA /* Assets.xcassets in Resources */,
+				BA16E27F2A5D903900DFC6C1 /* LICENSE in Resources */,
 				BA90326129CF7AFB006C9D65 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
